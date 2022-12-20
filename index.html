@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kouki TOKUNAGA">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <h1>海洋汚染</h1>
+        <time id="modify"></time>
+        <script>
+            /* 更新日の取得 */
+            const last = new Date(document.lastModified);
+            const year = last.getFullYear();
+            const month = last.getMonth() + 1;
+            const date = last.getDate();
+            /* 日付を書き換える */
+            const target = document.getElementById('modify');
+            target.textContent = "更新日"+ year + '-' + month + '-' + date;
+        </script>
+    </header>
+    <hr>
+    <div id="haikei">
+        <h2>なぜ海洋汚染を取り上げるのか</h2>
+        <p>
+            近年、SDGsが話題になっています。その中の14番目の目標に海の豊かさを守ろうというものがあります。このターゲットの1つとして<strong>「2025年までに、海洋ごみや富栄養化を含む、特に陸上活動による汚染など、あらゆる種類の海洋汚染を防止し、大幅に削減する」</strong>ことが掲げられ、解決に取り組むことが必要とされています。
+        </p>
+        <div id="a">
+            <h3>SDGsとは？</h3>
+            <p>SDGsは、「Sustinabul Development
+                Goals」の略で、日本語では持続可能な開発目標と言います。これは人間、地球、豊かさ、平和のためにつくられた目標であり、国際社会のパートナーシップにより実現をめざしています。
+            </p>
+            <img src="https://www.unic.or.jp/files/sdg_poster_ja_2021-640x452.jpg" alt="SDGsのアイコン" width="600px">
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h2>海洋汚染の現状</h2>
+        <p>海洋汚染の原因には様々なものがあります。主な海洋汚染の原因として海洋ごみ、生活排水、農業排水、産業排水、船舶事故による油の流出などがあります。</p>
+        <p>例えば、海上保安庁によると、令和2年には油による海洋汚染が286件、廃棄物による海洋汚染が158件報告されています。
+            また、廃棄物による海洋汚染について、世界経済フォーラムの報告書（2016年）によると、2050年までに海洋中に存在する
+            <ins>プラスチックの量が魚の量を超過する</ins>と予測されたそうです。
+        </p>
+        <p>このような海洋汚染は私たちの生活や生態系に様々な悪影響を与えるため、解決に向けた取り組みが必要とされています。</p>
+    </div>
+
+</body>
+
+</html>
