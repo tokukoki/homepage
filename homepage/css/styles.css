@@ -1,0 +1,35 @@
+@charset "utf-8";
+h1 {
+    font-size: 2em;
+    background: linear-gradient(white,rgb(7, 148, 236));
+    /* border-radius: 8px; */
+    
+    text-align: center;
+}
+
+h2 {
+    text-indent: 0.5em;
+    background: linear-gradient(white,skyblue,blue);
+    border-radius: 8px;
+}
+
+p {
+    text-indent: 1em;
+}
+
+ins {
+    color: red;
+}
+
+
+
+p::first-letter {
+    font-size: 1em;
+}
+
+
+#a {
+    border: 2px dashed;
+}
+
+
