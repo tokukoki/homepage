@@ -33,11 +33,6 @@ ins {
 
 
 
-p::first-letter {
-    font-size: 1em;
-}
-
-
 #a {
     border: 0.5em double;
     border-radius:10px;
