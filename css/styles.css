@@ -29,7 +29,8 @@ p::first-letter {
 
 
 #a {
-    border: 2px dashed;
+    border: 0.5em double;
+    border-radius:10px;
 }
 
 
